@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 public class Base {
 	
 	public WebDriver driver;
-	public Properties prop;
+	//public Properties prop;
 	
 	@BeforeMethod
 	public void browserInitiate() throws IOException{

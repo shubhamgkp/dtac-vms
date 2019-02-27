@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10401" started-at="2019-02-27T10:10:06Z" finished-at="2019-02-27T10:10:17Z">
+  <suite name="Default suite" duration-ms="9689" started-at="2019-02-27T11:40:01Z" finished-at="2019-02-27T11:40:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10401" started-at="2019-02-27T10:10:06Z" finished-at="2019-02-27T10:10:17Z">
+    <test name="Default test" duration-ms="9689" started-at="2019-02-27T11:40:01Z" finished-at="2019-02-27T11:40:10Z">
       <class name="org.vms.testscripts.TC002">
-        <test-method status="PASS" signature="browserInitiate()[pri:0, instance:org.vms.testscripts.TC002@4590c9c3]" name="browserInitiate" is-config="true" duration-ms="8498" started-at="2019-02-27T15:40:06Z" finished-at="2019-02-27T15:40:15Z">
+        <test-method status="PASS" signature="browserInitiate()[pri:0, instance:org.vms.testscripts.TC002@5056dfcb]" name="browserInitiate" is-config="true" duration-ms="7447" started-at="2019-02-27T17:10:01Z" finished-at="2019-02-27T17:10:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitiate -->
-        <test-method status="PASS" signature="testRoleCreate()[pri:0, instance:org.vms.testscripts.TC002@4590c9c3]" name="testRoleCreate" duration-ms="1869" started-at="2019-02-27T15:40:15Z" finished-at="2019-02-27T15:40:17Z">
+        <test-method status="PASS" signature="testRoleCreate()[pri:0, instance:org.vms.testscripts.TC002@5056dfcb]" name="testRoleCreate" duration-ms="2214" started-at="2019-02-27T17:10:08Z" finished-at="2019-02-27T17:10:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRoleCreate -->
