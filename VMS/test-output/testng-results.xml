@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8967" started-at="2019-02-27T07:00:24Z" finished-at="2019-02-27T07:00:33Z">
+  <suite name="Default suite" duration-ms="10401" started-at="2019-02-27T10:10:06Z" finished-at="2019-02-27T10:10:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8967" started-at="2019-02-27T07:00:24Z" finished-at="2019-02-27T07:00:33Z">
-      <class name="org.vms.testscripts.TC001">
-        <test-method status="PASS" signature="browserInitiate()[pri:0, instance:org.vms.testscripts.TC001@4590c9c3]" name="browserInitiate" is-config="true" duration-ms="8624" started-at="2019-02-27T12:30:24Z" finished-at="2019-02-27T12:30:33Z">
+    <test name="Default test" duration-ms="10401" started-at="2019-02-27T10:10:06Z" finished-at="2019-02-27T10:10:17Z">
+      <class name="org.vms.testscripts.TC002">
+        <test-method status="PASS" signature="browserInitiate()[pri:0, instance:org.vms.testscripts.TC002@4590c9c3]" name="browserInitiate" is-config="true" duration-ms="8498" started-at="2019-02-27T15:40:06Z" finished-at="2019-02-27T15:40:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitiate -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:org.vms.testscripts.TC001@4590c9c3]" name="testLogin" duration-ms="318" started-at="2019-02-27T12:30:33Z" finished-at="2019-02-27T12:30:33Z">
+        <test-method status="PASS" signature="testRoleCreate()[pri:0, instance:org.vms.testscripts.TC002@4590c9c3]" name="testRoleCreate" duration-ms="1869" started-at="2019-02-27T15:40:15Z" finished-at="2019-02-27T15:40:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-      </class> <!-- org.vms.testscripts.TC001 -->
+        </test-method> <!-- testRoleCreate -->
+      </class> <!-- org.vms.testscripts.TC002 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

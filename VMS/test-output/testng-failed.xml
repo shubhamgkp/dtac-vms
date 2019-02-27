@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)" preserve-order="true">
     <classes>
-      <class name="org.vms.testscripts.TC001">
+      <class name="org.vms.testscripts.TC002">
         <methods>
-          <include name="testLogin"/>
           <include name="browserInitiate"/>
+          <include name="testRoleCreate"/>
         </methods>
-      </class> <!-- org.vms.testscripts.TC001 -->
+      </class> <!-- org.vms.testscripts.TC002 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

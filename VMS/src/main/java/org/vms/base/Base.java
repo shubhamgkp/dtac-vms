@@ -21,18 +21,18 @@ public class Base {
 	@BeforeMethod
 	public void browserInitiate() throws IOException{
 		
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","./Driver/chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		driver.navigate().to("http://192.168.0.116/#/authentication/login");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
 		
-		File file = new File(System.getProperty("user.dir")+"/or.properties");
+		/*File file = new File(System.getProperty("user.dir")+"/or.properties");
 		FileInputStream fs = new FileInputStream(file);
 		
 		Properties prop = new Properties();
-		prop.load(fs);			
+		prop.load(fs);*/			
 	}
 	
 	/*@AfterMethod

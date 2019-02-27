@@ -5,12 +5,11 @@ import org.vms.base.Base;
 import org.vms.pages.LoginPage;
 
 public class TC001 extends Base {
-	
+
 	@Test
 	public void testLogin() {
-		
-		LoginPage lp=new LoginPage(driver, prop);
-		lp.Login("123","123");
-	}
 
+		LoginPage lp=new LoginPage(driver);
+		lp.Login("123", "123");
+	}
 }
