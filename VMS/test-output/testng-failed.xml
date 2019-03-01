@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)" preserve-order="true">
     <classes>
-      <class name="org.vms.testscripts.TC002">
+      <class name="org.vms.testscripts.CreateRoleTypeTest">
         <methods>
           <include name="browserInitiate"/>
-          <include name="testRoleCreate"/>
-          <include name="browserClose"/>
+          <include name="testRoleCreate" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- org.vms.testscripts.TC002 -->
+      </class> <!-- org.vms.testscripts.CreateRoleTypeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

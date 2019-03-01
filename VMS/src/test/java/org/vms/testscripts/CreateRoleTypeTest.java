@@ -4,14 +4,15 @@ import java.io.IOException;
 
 import org.testng.annotations.Test;
 import org.vms.base.Base;
+import org.vms.dataprovider.TestDataProvider;
 import org.vms.pages.CreateRoleType;
 import org.vms.pages.LoginPage;
 import org.vms.utility.TakeScreenShot;
 
-public class TC002 extends Base{
+public class CreateRoleTypeTest extends Base{
 	
-	@Test
-	public void testRoleCreate() throws InterruptedException, IOException {
+	@Test(dataProvider="XL",dataProviderClass=TestDataProvider.class)
+	public void testRoleCreate(String roleCode, String roleName) throws InterruptedException, IOException {
 		
 		
 		LoginPage lp=new LoginPage(driver);
@@ -23,11 +24,10 @@ public class TC002 extends Base{
 		CreateRoleType role = new CreateRoleType(driver);
 		role.RoleType();
 		role.CreateRole();
-		role.RoleTypeCode("12455");		
-		role.RoleTypeName("Mohit");
+		role.RoleTypeCode(roleCode);		
+		role.RoleTypeName(roleName);
 		role.RList();		
-		role.Button();	
-		TakeScreenShot.screenShot(driver);
+		role.Button();		
 	}
 }
 

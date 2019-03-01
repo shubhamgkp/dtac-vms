@@ -12,7 +12,6 @@ public class TC001 extends Base {
 		LoginPage lp=new LoginPage(driver);
 		lp.setLoginId("123");
 		lp.setLoginPass("123");
-		lp.setLoginButtonClick();
-		
+		lp.setLoginButtonClick();		
 	}
 }

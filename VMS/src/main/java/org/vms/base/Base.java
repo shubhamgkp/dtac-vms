@@ -41,9 +41,9 @@ public class Base implements Constant  {
 
 	}
 
-	@AfterMethod
+	/*@AfterMethod
 	public void browserClose(){
 
 		driver.close();
-	}
+	}*/
 }
