@@ -2,19 +2,23 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9689" started-at="2019-02-27T11:40:01Z" finished-at="2019-02-27T11:40:10Z">
+  <suite name="Default suite" duration-ms="11129" started-at="2019-02-28T09:07:08Z" finished-at="2019-02-28T09:07:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9689" started-at="2019-02-27T11:40:01Z" finished-at="2019-02-27T11:40:10Z">
+    <test name="Default test" duration-ms="11129" started-at="2019-02-28T09:07:08Z" finished-at="2019-02-28T09:07:19Z">
       <class name="org.vms.testscripts.TC002">
-        <test-method status="PASS" signature="browserInitiate()[pri:0, instance:org.vms.testscripts.TC002@5056dfcb]" name="browserInitiate" is-config="true" duration-ms="7447" started-at="2019-02-27T17:10:01Z" finished-at="2019-02-27T17:10:08Z">
+        <test-method status="PASS" signature="browserInitiate()[pri:0, instance:org.vms.testscripts.TC002@2669b199]" name="browserInitiate" is-config="true" duration-ms="7051" started-at="2019-02-28T14:37:08Z" finished-at="2019-02-28T14:37:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitiate -->
-        <test-method status="PASS" signature="testRoleCreate()[pri:0, instance:org.vms.testscripts.TC002@5056dfcb]" name="testRoleCreate" duration-ms="2214" started-at="2019-02-27T17:10:08Z" finished-at="2019-02-27T17:10:10Z">
+        <test-method status="PASS" signature="testRoleCreate()[pri:0, instance:org.vms.testscripts.TC002@2669b199]" name="testRoleCreate" duration-ms="1939" started-at="2019-02-28T14:37:15Z" finished-at="2019-02-28T14:37:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRoleCreate -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:org.vms.testscripts.TC002@2669b199]" name="browserClose" is-config="true" duration-ms="2110" started-at="2019-02-28T14:37:17Z" finished-at="2019-02-28T14:37:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
       </class> <!-- org.vms.testscripts.TC002 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

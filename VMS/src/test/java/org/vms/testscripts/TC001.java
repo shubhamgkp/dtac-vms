@@ -10,6 +10,9 @@ public class TC001 extends Base {
 	public void testLogin() {
 
 		LoginPage lp=new LoginPage(driver);
-		lp.Login("123", "123");
+		lp.setLoginId("123");
+		lp.setLoginPass("123");
+		lp.setLoginButtonClick();
+		
 	}
 }
