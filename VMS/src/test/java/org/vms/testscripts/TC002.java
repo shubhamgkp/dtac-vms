@@ -13,13 +13,12 @@ public class TC002 extends Base{
 	@Test
 	public void testRoleCreate() throws InterruptedException, IOException {
 		
-	/*	LoginPage login = new LoginPage(driver);
-		login.Login("123", "123");*/
 		
 		LoginPage lp=new LoginPage(driver);
 		lp.setLoginId("123");
 		lp.setLoginPass("123");
 		lp.setLoginButtonClick();
+		Thread.sleep(5000);
 		
 		CreateRoleType role = new CreateRoleType(driver);
 		role.RoleType();
