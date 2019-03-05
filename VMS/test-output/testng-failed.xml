@@ -6,7 +6,7 @@
       <class name="org.vms.testscripts.CreateRoleTypeTest">
         <methods>
           <include name="browserInitiate"/>
-          <include name="testRoleCreate" invocation-numbers="0 1"/>
+          <include name="testRoleCreate" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- org.vms.testscripts.CreateRoleTypeTest -->
     </classes>
