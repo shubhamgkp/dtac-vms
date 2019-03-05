@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24855" started-at="2019-03-01T11:59:11Z" finished-at="2019-03-01T11:59:35Z">
+  <suite name="Default suite" duration-ms="38713" started-at="2019-03-05T06:06:47Z" finished-at="2019-03-05T06:07:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24855" started-at="2019-03-01T11:59:11Z" finished-at="2019-03-01T11:59:35Z">
+    <test name="Default test" duration-ms="38713" started-at="2019-03-05T06:06:47Z" finished-at="2019-03-05T06:07:26Z">
       <class name="org.vms.testscripts.CreateRoleTypeTest">
-        <test-method status="PASS" signature="browserInitiate()[pri:0, instance:org.vms.testscripts.CreateRoleTypeTest@4439f31e]" name="browserInitiate" is-config="true" duration-ms="6393" started-at="2019-03-01T17:29:11Z" finished-at="2019-03-01T17:29:18Z">
+        <test-method status="PASS" signature="browserInitiate()[pri:0, instance:org.vms.testscripts.CreateRoleTypeTest@4439f31e]" name="browserInitiate" is-config="true" duration-ms="17107" started-at="2019-03-05T11:36:48Z" finished-at="2019-03-05T11:37:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitiate -->
-        <test-method status="PASS" signature="testRoleCreate(java.lang.String, java.lang.String)[pri:0, instance:org.vms.testscripts.CreateRoleTypeTest@4439f31e]" name="testRoleCreate" duration-ms="6012" started-at="2019-03-01T17:29:18Z" data-provider="XL" finished-at="2019-03-01T17:29:24Z">
+        <test-method status="PASS" signature="testRoleCreate(java.lang.String, java.lang.String)[pri:0, instance:org.vms.testscripts.CreateRoleTypeTest@4439f31e]" name="testRoleCreate" duration-ms="8635" started-at="2019-03-05T11:37:05Z" data-provider="XL" finished-at="2019-03-05T11:37:13Z">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRoleCreate -->
-        <test-method status="PASS" signature="browserInitiate()[pri:0, instance:org.vms.testscripts.CreateRoleTypeTest@4439f31e]" name="browserInitiate" is-config="true" duration-ms="6053" started-at="2019-03-01T17:29:24Z" finished-at="2019-03-01T17:29:30Z">
+        <test-method status="PASS" signature="browserInitiate()[pri:0, instance:org.vms.testscripts.CreateRoleTypeTest@4439f31e]" name="browserInitiate" is-config="true" duration-ms="6189" started-at="2019-03-05T11:37:13Z" finished-at="2019-03-05T11:37:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitiate -->
-        <test-method status="PASS" signature="testRoleCreate(java.lang.String, java.lang.String)[pri:0, instance:org.vms.testscripts.CreateRoleTypeTest@4439f31e]" name="testRoleCreate" duration-ms="5880" started-at="2019-03-01T17:29:30Z" data-provider="XL" finished-at="2019-03-01T17:29:35Z">
+        <test-method status="PASS" signature="testRoleCreate(java.lang.String, java.lang.String)[pri:0, instance:org.vms.testscripts.CreateRoleTypeTest@4439f31e]" name="testRoleCreate" duration-ms="6032" started-at="2019-03-05T11:37:20Z" data-provider="XL" finished-at="2019-03-05T11:37:26Z">
           <params>
             <param index="0">
               <value>

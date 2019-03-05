@@ -7,7 +7,6 @@ import org.vms.base.Base;
 import org.vms.dataprovider.TestDataProvider;
 import org.vms.pages.CreateRoleType;
 import org.vms.pages.LoginPage;
-import org.vms.utility.TakeScreenShot;
 
 public class CreateRoleTypeTest extends Base{
 	
